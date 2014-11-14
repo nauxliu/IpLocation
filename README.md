@@ -1,4 +1,4 @@
-##介绍
+#介绍
 PHP实现 基于纯真IP库 根据IP地址查找对应的地理位置信息
 
 ####更新的版本
@@ -8,7 +8,7 @@ PHP实现 基于纯真IP库 根据IP地址查找对应的地理位置信息
 
 如果你需要更高的性能，请使用 [C扩展库](http://pecl.php.net/package/qqwry)
 
-##安装
+#安装
 
 在你的`composer.json`中加入
 
@@ -18,7 +18,7 @@ PHP实现 基于纯真IP库 根据IP地址查找对应的地理位置信息
 },
 ```
 
-##使用
+#使用
 
 ```
 use Naux\IpLocation\IpLocation;
