@@ -1,0 +1,22 @@
+{
+    "name": "naux/iplocation",
+    "description": "基于纯真IP库的,查询IP归属地PHP库",
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NauxLiu",
+            "email": "xuancoder@gmail.com",
+            "homepage": "http://naux.me"
+        },
+        {
+            "name": "joyphper",
+            "homepage": "http://joyphper.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Naux\\IpLocation\\": ""
+        }
+    }
+}
