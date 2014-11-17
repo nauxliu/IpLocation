@@ -12,7 +12,7 @@ PHP实现 基于纯真IP库 根据IP地址查找对应的地理位置信息
 
 在你的`composer.json`中加入
 
-```
+```json
 "require": {
     "naux/iplocation": "dev-master"
 },
@@ -20,7 +20,7 @@ PHP实现 基于纯真IP库 根据IP地址查找对应的地理位置信息
 
 #使用
 
-```
+```php
 use Naux\IpLocation\IpLocation;
 
 $ip = new IpLocation();
@@ -30,7 +30,7 @@ $location = $ip->getlocation('119.75.217.56');
 
 `$location`的内容如下
 
-```
+```php
 array (size=5)
   'ip' => string '119.75.217.56' (length=13)
   'beginip' => string '119.75.208.0' (length=12)
@@ -41,7 +41,7 @@ array (size=5)
 
 ####指定其他路径的纯真库dat文件
 
-```
+```php
 use Naux\IpLocation\IpLocation;
 
 $ip = new IpLocation('/home/qqwry.dat');
