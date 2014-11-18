@@ -52,7 +52,7 @@ class IpLocation
     public function __construct($filename = '')
     {
         if(empty($filename)){
-            $filename = __DIR__.'qqwry.dat';
+            $filename = __DIR__.DIRECTORY_SEPARATOR.'qqwry.dat';
         }
 
         $this->fp = null;
